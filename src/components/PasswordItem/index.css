@@ -1,0 +1,79 @@
+.userPasswordDetailsList_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5763a5;
+  outline: none;
+  border: 0.1px solid #9ba9eb;
+  border-radius: 3px;
+  padding: 15px;    
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  min-width: 217px;
+  min-height: 85px;
+}
+
+.passwordDetails_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.initialContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b69ff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.initial{
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.userPassword_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input_text{
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #ffffff;
+  padding: 2px;
+  margin: 0px;
+}
+
+.stars_image {
+  width: 100px;
+  height: 15px;
+  margin-top: 5px;
+}
+
+.show_password {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #ffffff;
+  padding: 2px;
+  margin: 0px;
+}
+
+.delete_button{
+  background-color: transparent;
+  border: none;
+}
+
+.del_image{
+  height: 20px;
+}
